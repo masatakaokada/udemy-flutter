@@ -9,5 +9,6 @@ class MainModel extends ChangeNotifier {
 
   void incrementCounter() {
     counter++;
+    notifyListeners();
   }
 }
